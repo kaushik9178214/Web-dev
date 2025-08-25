@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1,2 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1 class="margin1">Welcome to Laundary Wallah / Laundary Mart</h1>
+    </header>
+    <nav class="navigation">
+        <ul id="navitems">
+            <li><img style="margin-left: 5px;" height="20px" id="logo" src="css\1.Intro to CSS\images\favicon.ico" alt=""></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#ourServices">Services</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
+            <li style="margin-left: auto;margin-right: 5px; color: aqua';" id="username">Username</li>
+        </ul>
+    </nav>
+    <section id="aboutUs">
+    <p class="margin1">Laundry Wallah / Laundry Mart, a premier laundry service, is enhancing its online presence through a HTML webpage. The initial HTML code serves as a foundation for a user-friendly and visually appealing site. Web Page is about creating a seamless digital experience, showcasing services, pricing, and easy navigation.</p>
+    
+    </section>
+    <section id="image section">
+    <img src="https://static.vecteezy.com/system/resources/previews/026/721/193/non_2x/washing-machine-and-laundry-laundry-sticker-png.png" alt="Our logo" width="200">
+    </section>
+    <section id="ourServices">
+    <h3 class="margin1" >Our services</h3>
+    <ul class="margin2">
+        <li id="service">Washing and Drying</li>
+        <li id="service"> Ironing and Folding</li>
+        <li id="service">Dry Cleaning</li>
+        <li id="service"> Stain Removal</li>
+        <li id="service">Express Services</li>
+        <li id="service">Special Garment Care</li>
+        
+    </ul>
+    </section>
+    <section id="hero">
+        
+        <div class="left">
+            <h2 class="margin1">Hero Section</h2>
+            <p class="margin1">Laundry Wallah / Laundry Mart, a premier laundry service, is enhancing its online presence through a HTML webpage. The initial HTML code serves as a foundation for a user-friendly and visually appealing site. Web Page is about creating a seamless digital experience, showcasing services, pricing, and easy navigation.</p>
+            <button class="margin1">Book a Service today</button>
+        </div>
+        <div class="right">
+            <img src="./images/dummypic.jpeg" alt="Washing machine">
+        </div>
+    </section>
+    <section id="Price list" >
+    <h3 class="margin1">Price list</h3>
+    
+    <table class="margin1 ">
+        <thead>
+            <tr>
+                <th>Services</th>
+                <th>Prices</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Washing and Drying</td>
+                <td>Rs 10.00</td>
+                
+            </tr>
+            <tr>
+                <td> Ironing and Folding</td>
+                <td>Rs 5.00</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </section>
+    <section id="book now">
+    <form action="">
+    <h3 class="margin1">Book now</h3>
+    <div class="margin1">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Enter your name" required id="name">
+    <label for="email">Email</label>
+    <input type="email"  id="email" placeholder="Enter your mail" required>
+    <label for="phone">Phone Number</label>
+    <input type="number" id="phone" placeholder="Enter your mobile number" min="1000000000" max="9999999999" required>
+    </div>
+    <!-- Alternate approach for phone number logic
+    <input 
+    type="text" 
+    id="phone" 
+    placeholder="Enter your mobile number" 
+    pattern="\d{10}" 
+    title="Enter a 10-digit mobile number" 
+    required> -->
+
+    <input class="margin1" type="submit" >
+
+    </form>
+    </section>
+    <footer class="margin1" id="contactUs">
+        <p>Contact us at: info@laundarymart.com</p>
+    </footer>
+</body>
+</html>
