@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin-top: 1rem;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    margin-left: 0.8rem;
+    
+}
+.logo{
+    font-size: larger;
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.user{
+    background-color: rgba(28, 100, 201,0.2);
+    color: rgb(28, 100, 201);
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    
+    border-radius: 5px;
+    
+}
+.hero{
+    display: flex;
+    margin-top: 5rem;
+    /* padding: 1rem; */
+    gap: 3rem;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+.left{
+    display: grid;
+    justify-items: start;
+    gap: 1rem;
+    flex-basis: 22%;
+    
+    
+}
+.left span{
+    color:rgba(3, 141, 239, 0.841)  ;
+}
+.left p, .left h1{
+    color: gray;
+}
+.left button{
+    padding: 1rem 2.5rem;
+    background-color:rgba(3, 141, 239, 0.841) ;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    
+    
+}
+.right img{
+    height: 400px;
+}
+
+
+
+
